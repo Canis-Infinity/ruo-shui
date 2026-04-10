@@ -15,7 +15,7 @@ export default function HGroup({ align = 'left', title, description, category }:
         {category}
       </span>
       <h1
-        className={`from-ink via-brand to-brand-dark w-fit max-w-10/12 bg-linear-to-r bg-clip-text text-3xl font-semibold text-balance whitespace-pre-line text-transparent sm:max-w-2/3 ${align === 'center' ? 'mx-auto' : align === 'right' ? 'ml-auto' : ''}`}
+        className={`w-fit max-w-10/12 text-3xl font-semibold text-balance whitespace-pre-line text-ink/90 sm:max-w-2/3 ${align === 'center' ? 'mx-auto' : align === 'right' ? 'ml-auto' : ''}`}
       >
         {title}
       </h1>

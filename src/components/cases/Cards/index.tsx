@@ -7,7 +7,7 @@ type Props = {
 function Card({ subject, problem, solution, results, summary }: CaseItem) {
   return (
     <div className="shadow-soft hover:shadow-brand-soft hover:border-brand flex w-full flex-col overflow-hidden rounded-2xl border-2 border-transparent transition-all duration-200 hover:-translate-y-0.5 lg:flex-row">
-      <div className="bg-muted-foreground/15 max-w-full p-6 lg:max-w-3/12 lg:min-w-3/12">
+      <div className="bg-brand-dark/15 max-w-full p-6 lg:max-w-3/12 lg:min-w-3/12">
         <h3 className="text-ink mb-2 text-2xl font-semibold">{subject}</h3>
         {summary && <p className="text-sub-ink mt-3 text-sm">{summary}</p>}
       </div>

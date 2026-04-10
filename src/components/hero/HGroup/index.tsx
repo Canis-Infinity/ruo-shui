@@ -10,7 +10,7 @@ export default function HGroup() {
       </span>
 
       <h1 className="mt-6 text-4xl leading-tight font-semibold tracking-tight sm:text-4xl lg:text-5xl">
-        <span className="from-ink via-brand to-brand-dark bg-linear-to-r bg-clip-text whitespace-pre-line text-transparent">
+        <span className="whitespace-pre-line text-brand-dark">
           {heroSection.title}
         </span>
       </h1>

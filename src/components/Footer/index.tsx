@@ -10,7 +10,7 @@ export default function Footer() {
         <Logo withText={false} size="large" />
       </div>
       <div className={containerClassName}>
-        <p className="from-ink via-brand to-brand-dark mx-auto w-fit bg-linear-to-r bg-clip-text text-center text-xl leading-relaxed font-semibold whitespace-pre-wrap text-transparent">
+        <p className="mx-auto w-fit text-center text-xl leading-relaxed font-semibold whitespace-pre-wrap text-brand-dark">
           {footerSection.slogan}
         </p>
       </div>

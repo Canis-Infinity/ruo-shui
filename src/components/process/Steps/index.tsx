@@ -11,10 +11,10 @@ type StepProps = ProcessStep & {
 function Step({ id, subject, content }: StepProps) {
   return (
     <div className="group grid grid-cols-1 gap-x-4 gap-y-2 p-8 [grid-template-areas:'number''title''content'] sm:grid-cols-[auto_1fr] sm:items-start sm:[grid-template-areas:'number_title''number_content']">
-      <span className="from-sub-ink to-brand w-fit origin-top-right bg-linear-to-r bg-clip-text pl-0 sm:pl-8 font-mono text-5xl font-semibold text-transparent transition [grid-area:number] group-hover:scale-145">
+      <span className="w-fit origin-top-right pl-0 sm:pl-8 font-mono text-5xl font-semibold text-brand-dark transition [grid-area:number] group-hover:scale-145">
         {(id + 1).toString().padStart(2, '0')}
       </span>
-      <h3 className="text-ink group-hover:from-ink group-hover:via-brand group-hover:to-brand-dark w-fit text-2xl font-semibold transition-all duration-300 [grid-area:title] group-hover:bg-linear-to-r group-hover:bg-clip-text group-hover:text-transparent">
+      <h3 className="text-ink w-fit text-2xl font-semibold transition-all duration-300 [grid-area:title]">
         {subject}
       </h3>
       <p className="text-muted-foreground [grid-area:content]">{content}</p>
